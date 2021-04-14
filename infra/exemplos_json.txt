@@ -32,34 +32,34 @@ Exemplos de JSON para inserção de Unidades:
 Exemplos de JSON para inserção de Pessoas:
 ==========================================
 {
-    "nome_pessoa": "Abrantes Araújo Silva Filho",
+    "nome_pessoa": "Thuany Cola da Silva",
     "cpf_pessoa": "111.111.111-11",
-    "data_nascimento_pessoa": "1974/07/04",
+    "data_nascimento_pessoa": "2000/06/15",
     "unidade_id": "606d285bab207ae32452da70",
     "grupo_prioritario_pessoa": "true",
-    "endereco_pessoa": "Rua do Escorrega e Lá Vai Dois, n.º 200.",
-    "telefone_pessoa": "1234-5678",
-    "email_pessoa": "abrantes@naotefalo.nada"
+    "endereco_pessoa": "Rua da Galeria, n.º 91.",
+    "telefone_pessoa": "2222-2222",
+    "email_pessoa": "thuany@faesa.trabalho.co"
 }
 {
-    "nome_pessoa": "Tomás Cardoso Araújo",
+    "nome_pessoa": "Laura Cola da Silva",
     "cpf_pessoa": "222.222.222-22",
-    "data_nascimento_pessoa": "1905/07/28",
+    "data_nascimento_pessoa": "1969/06/22",
     "unidade_id": "606d285bab207ae32452da70",
     "grupo_prioritario_pessoa": "false",
-    "endereco_pessoa": "Rua do Escorrega e Lá Vai Três, n.º 300.",
+    "endereco_pessoa": "Rua da Galeria, n.º 91.",
     "telefone_pessoa": "1111-2222",
-    "email_pessoa": "tomas@nao.te.falo.nada"
+    "email_pessoa": "laura@faesa.trabalho.co"
 }
 {
-    "nome_pessoa": "Elis Cardoso Araújo",
+    "nome_pessoa": "Emanuelly Samora",
     "cpf_pessoa": "333.333.333-33",
-    "data_nascimento_pessoa": "2015/09/25",
+    "data_nascimento_pessoa": "2003/17/05",
     "unidade_id": "606d27dcab207ae32452da6f",
     "grupo_prioritario_pessoa": "false",
-    "endereco_pessoa": "Rua do Escorrega e Lá Vai Quatro, n.º 400.",
-    "telefone_pessoa": "13333-4444",
-    "email_pessoa": "elis@nao.te.falo.nada"
+    "endereco_pessoa": "Rua da Galeria, n.º 91.",
+    "telefone_pessoa": "3333-4444",
+    "email_pessoa": "emanuelly@faesa.trabalho.com"
 }
 
 
@@ -69,42 +69,42 @@ Exemplos de JSON para inserção de Agendamento:
 {
     "pessoa_id": "606d2a4b0d0a4de4eba7d9f2",
     "unidade_id": "606d27dcab207ae32452da6f",
-    "data_hora_agendamento": "2021/04/10 08:00:00",
+    "dthora_agendamento": "2021/04/10 08:00:00",
     "necessidades_especiais_agendamento": "false",
     "observacoes_agendamento": "Primeira consulta."
 }
 {
     "pessoa_id": "606d2a4b0d0a4de4eba7d9f2",
     "unidade_id": "606d285bab207ae32452da70",
-    "data_hora_agendamento": "2021/04/11 08:00:00",
+    "dthora_agendamento": "2021/04/11 08:00:00",
     "necessidades_especiais_agendamento": "false",
     "observacoes_agendamento": "Segunda consulta."
 }
 {
     "pessoa_id": "606d2bbd16696be5b8eba585",
     "unidade_id": "606d27dcab207ae32452da6f",
-    "data_hora_agendamento": "2021/04/10 08:30:00",
+    "dthora_agendamento": "2021/04/10 08:30:00",
     "necessidades_especiais_agendamento": "true",
     "observacoes_agendamento": "Primeira consulta."
 }
 {
     "pessoa_id": "606d2bbd16696be5b8eba585",
     "unidade_id": "606d285bab207ae32452da70",
-    "data_hora_agendamento": "2021/04/11 08:30:00",
+    "dthora_agendamento": "2021/04/11 08:30:00",
     "necessidades_especiais_agendamento": "true",
     "observacoes_agendamento": "Segunda consulta."
 }
 {
     "pessoa_id": "606d2c3316696be5b8eba586",
     "unidade_id": "606d27dcab207ae32452da6f",
-    "data_hora_agendamento": "2021/04/10 09:00:00",
+    "dthora_agendamento": "2021/04/10 09:00:00",
     "necessidades_especiais_agendamento": "false",
     "observacoes_agendamento": "Primeira consulta."
 }
 {
     "pessoa_id": "606d2c3316696be5b8eba586",
     "unidade_id": "606d285bab207ae32452da70",
-    "data_hora_agendamento": "2021/04/11 09:00:00",
+    "dthora_agendamento": "2021/04/11 09:00:00",
     "necessidades_especiais_agendamento": "false",
     "observacoes_agendamento": "Segunda consulta."
 }
